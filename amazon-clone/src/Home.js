@@ -11,16 +11,56 @@ function Home() {
            
             alt=''/>
             <div className='home_row'>
-                <Product title='The lean startup' price={29.99} image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'rating={5}/>
-                <Product />
+                <Product id='12321341' 
+                title='The lean startup' 
+                price={29.99} 
+                image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
+                rating={5}
+                />
+                
+                <Product id='49538094'
+                title='Kenwood kMix Stand Mixer for Baking,Stylish Kitchen Mixer with
+                K-beater Dough Hook and Whisk, 5 Litre Glass Bowl'
+                price={239.0}
+                rating={4}
+                image="https://i.ebayimg.com/images/g/ZXAAAOSw-19fB~El/s-l300.jpg" jsname="HiaYvf" jsaction="load:XAeZkd;" data-iml="9891.795000061393" style="width: 300px; height: 287px; margin: 0px;"
+                />
                 </div>
                 <div className='home_row'>
-                    <Product />
-                    <Product />
-                    <Product />
+                    <Product
+                        id='4903850'
+                        title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor" 
+                        price={199.99}
+                        rating={5}
+                        image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+                        
+                        />
+                    <Product 
+                    id="3254354345"
+                    title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+                    price={598.99}
+                    rating={4}
+                    image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+                    />
+                    <Product 
+                    id="55446988"
+                    title="New Apple Watch"
+                    price={455.25}
+                    rating={3}
+                    image= "https://9to5mac.com/wp-content/uploads/sites/6/2019/04/apple-watch-series-4-1.jpg?quality=82&amp;strip=all" jsname="HiaYvf" jsaction="load:XAeZkd;" data-iml="36320.109999971464" style="width: 383px; height: 191.5px; margin: 0px;"
+                        />
+                    
                     </div>
                  <div className='home_row'>
-                     <Product />
+                     <Product
+                       id='90829332'
+                       title="Samsung LC49RG90SSUXEN 49' Curved
+                       LED Gaming Monitor - Super Ultra Wide
+                       Dual WQHD 5120 x 1440"
+                       price={1094.98}
+                       rating={4}
+                       image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+                       />
                     
             </div>
          </div>

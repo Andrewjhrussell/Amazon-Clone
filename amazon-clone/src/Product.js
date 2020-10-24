@@ -1,11 +1,11 @@
 import React from 'react'
 import './Product.css';
 
-function Product({title, image, price, rating}) {
+function Product({id, title, image, price, rating}) {
     return (
         <div className='product'>
             <div className='product_info'>
-              <p>title</p>
+              <p>{title}</p>
               <p className='product_price'>
                   <small>$</small>
                   <strong>{price}</strong>
@@ -17,7 +17,7 @@ function Product({title, image, price, rating}) {
                   
                   </div>
             </div>
-            <img src='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL.AC_SY400_.jpg' alt=''/>
+            <img src={image} alt=''/>
          
          <button>Add to Basket</button>
          </div>
